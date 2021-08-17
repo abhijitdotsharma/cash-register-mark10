@@ -1,0 +1,12 @@
+body{
+    background-color: wheat;
+}
+.container{
+    background-color: teal;
+    border: 1px solid teal;
+    margin: auto;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+}
