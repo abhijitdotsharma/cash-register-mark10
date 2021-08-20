@@ -2,11 +2,18 @@ body{
     background-color: wheat;
 }
 .container{
+    text-align: center;
     background-color: teal;
     border: 1px solid teal;
     margin: auto;
     padding: 0.5rem;
     display: flex;
     flex-direction: column;
-    width: 30vw;
+    width: 60vw;
+    max-width: 600px;
+}
+
+#check-btn{
+    margin: auto;
+    width: 5rem;
 }
