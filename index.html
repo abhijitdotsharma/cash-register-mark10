@@ -16,10 +16,10 @@
             Enter the bill amount and the cash given
         </p>
         <label for="bill-amount">Bill Amount :</label>
-        <input type="number" id="bill-amount"/>
+        <input type="number" min=0 oninput="validity.valid||(value='');" id="bill-amount"/>
         <hr>
         <label for="cash-given">Cash given :</label>
-        <input type="number" id="cash-given">
+        <input type="number" min=0 oninput="validity.valid||(value='');" id="cash-given">
 
         <hr>
 
